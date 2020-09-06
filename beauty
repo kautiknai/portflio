@@ -1,0 +1,7 @@
+echo "portfolio" >> READme.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M redme.edits
+git remote add origin https://github.com/kautiknai/portflio.git
+git push -u origin redme.edits
